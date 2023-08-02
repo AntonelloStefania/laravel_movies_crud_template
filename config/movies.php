@@ -1,5 +1,5 @@
-<?php 
- return [
+<?php
+return [
     [
         'name' => 'Il grande Lebowsky',
         'img' => 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/bEc5bGCWJcixCz5V5Qi9jUwiBqw.jpg',
@@ -208,5 +208,5 @@
         'original_language' => 'Inglese',
         'length' => '120'
     ],
-    
+
 ];

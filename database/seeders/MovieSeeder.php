@@ -15,8 +15,8 @@ class MovieSeeder extends Seeder
      */
     public function run()
     {
-        $movies=config('movies');
-        foreach($movies as $movie){
+        $movies = config('movies');
+        foreach ($movies as $movie) {
             $newMovie = new Movie();
             $newMovie->name = $movie['name'];
             $newMovie->img = $movie['img'];
@@ -24,7 +24,7 @@ class MovieSeeder extends Seeder
             $newMovie->vote = $movie['vote'];
             $newMovie->original_language = $movie['original_language'];
             $newMovie->length = $movie['length'];
-        
+
             $newMovie->save();
         }
     }
