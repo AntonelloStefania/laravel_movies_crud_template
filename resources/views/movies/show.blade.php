@@ -14,16 +14,37 @@
                     </div>
                     <!-- Card Body -->
                     <div class="card-body">
-                        <div class="row">
-                            <span>{{$movie->original_language}}</span>
-                            <span>{{$movie->genre}}</span>
-                            <span>{{$movie->vote}}</span>
-                            <span>{{$movie->length}}</span>
+                        <div class="row justify-content-around">
                             <!-- Image -->
-                            <div class="col-12 col-lg-4 d-flex justify-content-center">
+                            <!-- Left -->
+                            <div class="col-4 d-flex justify-content-center">
                                 <img src="{{ $movie->img }}" alt="banner-image" class="img-fluid border border-black border-5">
                             </div>
+                            <div class="col-6">
+                                <div class="row py-5">
+                                    <!-- Right-->
+                                    <div class="col-12 my-3">
+                                        <h3>Lingua:</h3>
+                                        <h5>{{$movie->original_language}}</h5>
+                                    </div>  
+                                    <div class="col-12 my-3">
+                                        <h3>Genere:</h3>
+                                        <h5>{{$movie->genre}}</h5>
+                                    </div>  
+                                    <div class="col-12 my-3">
+                                        <h3>Voto:</h3>
+                                        <h5>{{$movie->vote}}</h5>
+                                    </div>   
+                                    <div class="col-12 my-3">
+                                        <h3>Lunghezza film:</h3>
+                                        <h5>{{$movie->length}}</h5>
+                                    </div>  
+                                </div>
+                                
+                                
+                            </div>
                         </div>
+                        
                     </div>
                     <!-- Card Footer -->
                     <div class="card-footer">
