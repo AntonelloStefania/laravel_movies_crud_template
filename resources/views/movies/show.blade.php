@@ -16,7 +16,7 @@
                     <div class="card-body">
                         <div class="row">
                             <!-- Image -->
-                            <div class="col-12 col-lg-4 d-flex justify-content-center">
+                            <div class="col-12  d-flex justify-content-center">
                                 <img src="{{ $movie->img }}" alt="banner-image" class="img-fluid border border-black border-5">
                             </div>
                         </div>
@@ -24,7 +24,7 @@
                     <!-- Card Footer -->
                     <div class="card-footer">
                         <div class="row">
-                            <div class="col-12 text-center py-3">
+                            <div class="col-12 text-center">
                                 <!-- Edit Button -->
                                 <a href="{{ Route('movies.edit', $movie) }}" class="btn btn-warning mx-2">
                                     <i class="fa-solid fa-edit"></i>
