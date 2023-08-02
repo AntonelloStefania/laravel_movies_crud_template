@@ -12,6 +12,7 @@
                                     <h5 class="card-title">{{$movie->title}}</h5>
                                     <h5 class="card-title">{{$movie->genre}}</h5>
                                     <h5 class="card-title">{{$movie->title}}</h5>
+                                    <button>modify</button> <button>destroy</button>
                                 </div>
                             </div>
                     </div>
