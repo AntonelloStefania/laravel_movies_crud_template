@@ -9,7 +9,6 @@
                             <div class="card mb-3 " >
                                 <img src="{{$movie->img}}" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">{{$movie->title}}</h5>
                                     <h5 class="card-title">{{$movie->genre}}</h5>
                                     <h5 class="card-title">{{$movie->name}}</h5>
                                     <button>modify</button> <button>destroy</button>
