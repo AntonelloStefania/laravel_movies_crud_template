@@ -10,7 +10,7 @@
                     <!-- Card Header -->
                     <div class="card-header d-flex justify-content-center align-items-center text-center">
                         <!-- Title -->
-                        <h2 class="fs-4 fw-bold py-2">{{ $movie->name }}</h2>
+                        <h2 class="fs-4 fw-bold">{{ $movie->name }}</h2>
                     </div>
                     <!-- Card Body -->
                     <div class="card-body">
@@ -26,7 +26,7 @@
                         <div class="row">
                             <div class="col-12 text-center">
                                 <!-- Edit Button -->
-                                <a href="{{ Route('movies.edit', $movie) }}" class="btn btn-warning mx-2">
+                                <a href="{{ Route('movies.edit', $movie) }}" class="btn btn-warning>
                                     <i class="fa-solid fa-edit"></i>
                                 </a>
                                 <form action="{{ Route('movies.destroy', $movie) }}" method="POST" class="d-inline-block">
