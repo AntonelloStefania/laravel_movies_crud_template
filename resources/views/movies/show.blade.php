@@ -6,7 +6,7 @@
                 <a href="{{ Route('movies.index') }}" class="btn btn-dark">Home</a>
             </div>
             <div class="col-12 my-5">
-                <div class="card">
+                <div class="card text center">
                     <!-- Card Header -->
                     <div class="card-header d-flex justify-content-center align-items-center text-center">
                         <!-- Title -->
