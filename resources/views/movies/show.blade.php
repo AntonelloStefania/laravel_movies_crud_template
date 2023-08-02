@@ -15,6 +15,10 @@
                     <!-- Card Body -->
                     <div class="card-body">
                         <div class="row">
+                            <span>{{$movie->original_language}}</span>
+                            <span>{{$movie->genre}}</span>
+                            <span>{{$movie->vote}}</span>
+                            <span>{{$movie->length}}</span>
                             <!-- Image -->
                             <div class="col-12 col-lg-4 d-flex justify-content-center">
                                 <img src="{{ $movie->img }}" alt="banner-image" class="img-fluid border border-black border-5">
